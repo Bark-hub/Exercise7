@@ -1,12 +1,12 @@
 package com.company;
 
-/**
- * Created by 102693 on 2/25/2020.
- */
+// this is the class that derives from the Contact class
+
 public class BussinessContacts extends Contacts{
 
     private String phoneNumber;
 
+    // the keyword "super" is used to relate to the constructor properties in the contact class.
     public BussinessContacts(String name, String emailAddress, String phoneNumber) {
         super(name, emailAddress);
         this.phoneNumber = phoneNumber;

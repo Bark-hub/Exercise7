@@ -1,8 +1,7 @@
 package com.company;
 
-/**
- * Created by 102693 on 2/25/2020.
- */
+// this is the contact class
+
 public class Contacts {
 
     private String name;
